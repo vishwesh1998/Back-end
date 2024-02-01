@@ -27,10 +27,6 @@
             "dest": "build/index.html"
         },
         {
-            "src": "/updateProduct",
-            "dest": "build/index.html"
-        },
-        {
             "src": "/(.+)",
             "dest": "build/$1"
         }
