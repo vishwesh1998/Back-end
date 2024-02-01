@@ -23,6 +23,10 @@
         "dest": "build/index.html"
       },
       {
+        "src": "/updateProduct",
+        "dest": "build/index.html"
+      },
+      {
         "src": "/",
         "dest": "build/index.html"
       },
