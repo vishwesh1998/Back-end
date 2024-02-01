@@ -24,7 +24,7 @@ const staticPath = path.join(__dirname,'/build')
 // middleware
 server.use(cors())
 server.use(express.json())
-server.use('/api', serverRouter.router)
+server.use('/pr', serverRouter.router)
 server.use(express.static(staticPath))
 server.use('*', (req, res)=>{
   res.sendFile(path.join(__dirname,'/build','index.html'))
